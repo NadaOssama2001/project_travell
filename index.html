@@ -4,21 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./project.css">
+    <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/042890536d.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>complete responsive tour and travel agancy website design tutorial</title>
 </head>
 
 <body>
     <!-- header section start -->
     <header>
-        <div id="menu-bar" class="fas fa-bars"></div>
+        <div id="menu-bar" class="fas fa-bars"></div>  
         <a href="#" class="logo"><span>t</span>ravel</a>
         <nav class="navbar">
             <a href="#home">home</a>
@@ -26,7 +23,6 @@
             <a href="#packages">packages</a>
             <a href="#services">services</a>
             <a href="#gallery">gallery</a>
-            <a href="#review">review</a>
             <a href="#contact">contact</a>
         </nav>
         <div class="icon">
@@ -65,15 +61,19 @@
             <p>Already have an account? <a href="#" id="login-link" class="register-form link">Login now</a></p>
         </form>
     </div>
+    <!-- end logn -->
 
-    <!-- home -->
+
+    <!-- ===========================
+            section home
+    ============================ -->
     <section class="home" id="home">
 
         <div class="contant">
             <h3>adventure is worthwhile</h3>
             <p>dicover new places with us, adventure awaits</p>
 
-            <!-- <button><a href="#" class="btn">discover more</a></button> -->
+            <!-- // <button><a href="#" class="btn">discover more</a></button> -->
             <a href="#" class="btn">Discover More</a>
         </Div>
 
@@ -88,9 +88,459 @@
             <video src="image/vid-2.mp4" id="video-slider" loop autoplay muted></video>
         </div>
     </section>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <!-- end home -->
+    <!-- Section book-->
+    <section class="book" id="book">
+
+        <h1 class="heading">
+            <span>B</span>
+            <span>O</span>
+            <span>O</span>
+            <span>K</span>
+            <span class="space"></span>
+            <span>N</span>
+            <span>O</span>
+            <span>W</span>
+        </h1>
 
 
-    <script src="./project.js"></script>
+        <div class="row">
+
+            <div class="image">
+                <img src="./image/egypt.jpg" width="1000px" alt="egypt tourist">
+            </div>
+
+            <!-- <div class="con"> -->
+                <form action="" method="get">
+
+                    <div class="inputbox">
+                        <h3>Where to</h3>
+                        <input type="text" placeholder="name of place" pattern="[A-Za-z]{4,20}" title="Please enter letters only">
+                    </div>
+
+                    <div class="inputbox">
+                        <h3>How Many</h3>
+                        <input type="number" min="1" max="15" placeholder="number of Guests">
+                    </div>
+
+                    <div class="inputbox">
+                        <h3>Arrival</h3>
+                        <input type="date" min="2024-01-01" max="2024-09-29" placeholder="mm/dd/yyyy">
+                    </div>
+
+                    <div class="inputbox">
+                        <h3>Leaving</h3>
+                        <input type="date" min="2024-01-01" max="2024-09-29" placeholder="mm/dd/yyyy">
+                    </div>
+
+                    <br>
+                    <button class="btn" id="enter" type="submit" value="Book Now">
+
+
+                </form>
+            </div>
+
+        <!-- </div> -->
+
+        <!-- </div> -->
+    </section>
+
+    <!-- end book -->
+    <!--packages section-->
+
+    <section class="packages" id="packages">
+
+        <h1 class="heading">
+            <span>P</span>
+            <span>A</span>
+            <span>C</span>
+            <span>K</span>
+            <span>A</span>
+            <span>G</span>
+            <span>E</span>
+            <span>S</span>
+        </h1>
+
+
+        <div class="box-con" id="package">
+        </div>
+
+    </section>
+    <!-- end package -->
+<!-- start service -->
+<section class="services" id="service">
+
+    <h1 class="heading">
+        <span>S</span>
+        <span>E</span>
+        <span>R</span>
+        <span>V</span>
+        <span>I</span>
+        <span>C</span>
+        <span>E</span>
+        <span>S</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fa-solid fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p> View on map, 105 reviews #2 Best Value of 10 Cheap Hotels in Aswan "Decent location definitely a old
+                hotel slow draining showers but overall peaceful with a helpful staff seemed a bit abandoned lol no
+                elevator! And all the rooms are 2nd story and above! If ur on a budget this is the..."</p>
+        </div>
+
+        <div class="box">
+            <i class="fa-solid fa-globe"></i>
+            <h3>Around the world</h3>
+            <p> View on map, 105 reviews #2 Best Value of 10 Cheap Hotels in Aswan "Decent location definitely a old
+                hotel slow draining showers but overall peaceful with a helpful staff seemed a bit abandoned lol no
+                elevator! And all the rooms are 2nd story and above! If ur on a budget this is the..."</p>
+        </div>
+
+        <div class="box">
+            <i class="fa-solid fa-utensils"></i>
+            <h3>Food and Drinks </h3>
+            <p> View on map, 105 reviews #2 Best Value of 10 Cheap Hotels in Aswan "Decent location definitely a old
+                hotel slow draining showers but overall peaceful with a helpful staff seemed a bit abandoned lol no
+                elevator! And all the rooms are 2nd story and above! If ur on a budget this is the..."</p>
+        </div>
+
+        <div class="box">
+            <i class="fa-solid fa-bullhorn"></i>
+            <h3>Safety Guide</h3>
+            <p> it's crucial to prioritize your safety and security while exploring new destinations.
+                 Whether you're embarking on a solo adventure or traveling with loved ones, 
+                 taking proactive measures to protect yourself and your belongings is essential.
+                  In this blog, I'll discuss some indispensable security tips to help you have a safe and worry-free journey.
+                </p>
+        </div>
+
+        <div class="box">
+            <i class="fa-solid fa-plane"></i>
+            <h3>Fastest travel</h3>
+            <p> first, lets take a look at online travel agencies for leisure travel.
+                These are websites used by the everyday user to book their next big holiday 
+                or family vacation—whether that's to New York or the Caribbean.
+                   </p>
+             </div>
+         
+
+             
+        <div class="box">
+            <i class="fa-solid fa-person-hiking"></i>
+            <h3>Adventures</h3>
+            <p> Many adventures are based on the idea of a quest: the hero goes off in pursuit of a reward, whether it be a skill,
+                prize, treasure, or perhaps the safety of a person. On the way, the hero must overcome various obstacles to obtain their reward
+            </p>
+             </div>
+         
+         
+         
+
+
+    </div>
+
+</section>
+
+<!-- end service -->
+
+ <!-- section gallary -->
+ <section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>G</span>
+        <span>A</span>
+        <span>L</span>
+        <span>L</span>
+        <span>E</span>
+        <span>R</span>
+        <span>Y</span>
+    </h1>
+    <div class="images">
+
+        <div class="img">
+            <img src="./image/Dahb.jpg">
+            <div class="content">
+                <h3>Hurghada</h3>
+                <p class="animated-text ">Located on Egypt's Red Sea coast, Hurghada has stunning coral reefs and turquoise waters ideal
+                    for surfing, making it a resort teeming with tourists. With easy access to the picturesque
+                    Giftun Islands and the Eastern Arabian Desert, Hurghada has undergone a great deal of
+                    development over the past decade and the number of tourists is certainly often beyond
+                    imagination. Its beaches are a relatively easy haven for Europeans, and in its waters and off
+                    its coast are the best diving and snorkelling spots in the world. Enjoy walking around</p>
+
+            </div>
+
+        </div>
+
+        <div class="img">
+            <img src="./image/aswan.jpg">
+            <div class="content">
+                <h3>Aswan</h3>
+                <p>Swan is one of the Nubian cities in Egypt, and it was considered its southern gate in the past,
+                    and Aswan is located on the eastern bank of the Nile River at the first cataract, with a
+                    population of approximately 1,480,284 people, according to statistics in 2016, and Aswan is
+                    considered one of the oldest cities in Egypt, and it has many monuments and ancient cultural
+                    landmarks, which made it a distinctive tourist city
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="img">
+            <img src="./image/low-angle-shot-main-entrance-temple-horus-edfu-egypt.jpg">
+            <div class="content">
+                <h3>Temple</h3>
+                <p>Egyptian temples were built to worship the gods and to celebrate the pharaohs in ancient Egypt
+                    and in areas under Egyptian authority. The temples were seen as the house of the gods or kings
+                    to whom they were dedicated. Within these temples, Egyptians performed various religious
+                    rituals, which are the basic functions of the Egyptian religion, such as: offering offerings to
+                    the gods, reenacting their superstitious interactions during their celebrations, and banishing
+                    chaotic forces. These rituals were necessary to continue to preserve Maat, the divine order of
+                    the universe. The construction of temples and the care of the gods were the tasks of the
+                    pharaohs.
+            </div>
+
+        </div>
+
+        <div class="img">
+            <img src="./image/coral reefs.jpg">
+            <div class="content">
+                <h3> Coral Reefs</h3>
+                <p> Coral reefs The best place to watch underwater in diving to connect coral reefs and enjoy the
+                    beautiful scenery The different fish now in the Red Sea in Hurghada</p>
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="img">
+            <img src="./image/alex (1).jpg">
+            <div class="content">
+                <h3>Alexandria</h3>
+                <p>If you are thinking of traveling to Alexandria and enjoying its beautiful atmosphere, spend an
+                    enjoyable summer vacation. All you have to do is visit the most beautiful beaches of Alexandria,
+                    where the clear waters are clear, and the atmosphere is refreshing. There are many beaches in
+                    Alexandria, both public and private, and these beaches vary in terms of their prices.</p>
+
+            </div>
+
+        </div>
+
+        <div class="img">
+            <img src="./image/shot-numerous-boats-berthed-by-pier-straight-lines-sunset.jpg">
+            <div class="content">
+                <h3>Nile River</h3>
+                <p>The Nile River is one of the important tourist means in Egypt, where ship owners compete to
+                    provide the best distinctive services to the tourist, so that the Nile cruise is a dream
+                    repeated for everyone who visits Egypt. Many tourists, whether Arabs or Europeans, enjoy
+                    beautiful trips in the Nile through large boats that present the most beautiful Egyptian folk
+                    arts on the Nile in short trips during which the tourist feels the pleasure of tourism in Egypt.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="img">
+            <img src="./image/umbrella-chair-around-swimming-pool.jpg">
+            <div class="content">
+                <h3>Hurgada</h3>
+                <p>Hurghada is Egypt’s most well-known beach resort town, and it’s home to the country’s best
+                    stretches of coastline, its best hotels, and its best diving sites.</p>
+
+            </div>
+
+        </div>
+        <div class="img">
+            <img src="./image/Dahb (1).jpg">
+            <div class="content">
+                <h3>Dahb</h3>
+                <p>Dahab is considered one of the best places of tourism in Egypt, as it is characterized by its
+                    golden clear beaches, yellow sands and clear waters, and contains wonderful coral reefs and
+                    natural diving sites that it is famous for and is considered one of the best tourism activities
+                    in Egypt, and makes it a wonderful tourist attraction for all lovers and professionals of diving
+                    from the whole world, where diving competitions are held. The city is located on the Gulf of
+                    Aqaba and geographically follows the governorate of South Sinai and is about a hundred
+                    kilometers from Sharm el-Sheikh.</p>
+                
+            </div>
+
+        </div>
+        <div class="img">
+            <img src="./image/الجامع-الازهر-الشريف.webp">
+            <div class="content">
+                <h3>Al Azhar Mosque </h3>
+                <p> Al-Azhar Mosque is one of the oldest mosques in Egypt at all, and one of the historical
+                    strongholds for the dissemination and teaching of Islam as well as one of the most famous
+                    archaeological mosques in Egypt and the Islamic world, and part of the Al-Azhar Foundation dates
+                    back to the beginning of the Fatimid state in Egypt, after the essence of the Sicilian completed
+                    the conquest of Egypt in 969 AD, and proceeded to establish Cairo He established the Grand
+                    Palace and prepared it for the descent of the Caliph Al-Muizz Li Din Allah, and in the meantime
+                    he began to establish the mosque Al-Azhar to pray in it the caliph, and to be a mosque inclusive
+                    of the city .
+                    .</p>
+
+            </div>
+
+        </div>
+        <div class="img">
+            <img src="./image/شرم.avif">
+            <div class="content">
+                <h3>Sharm El , Sheikh</h3>
+                <p>You can see underwater wonders in the Red Sea. Tourists come from different parts of the world
+                    where the clear diversity between leisure tourism, adventures, safari, diving and mountaineering
+                    are many attractions and resorts that make the tourist feel that every day in the city is
+                    unique.
+                </p>
+
+            </div>
+
+        </div>
+        <div class="img">
+            <img src="./image/ الشيخ.jpg">
+            <div class="content">
+                <h3>Sharm El , Sheikh</h3>
+                <p>Tourism in Sharm El Sheikh is one of the best places of tourism in Egypt, Sharm El Sheikh is
+                    characterized as one of the best tourist cities in Egypt, as the city overlooks the Red Sea and
+                    mediates between the Gulf of Suez and Aqaba. Sharm El Sheikh is famous for its attractive
+                    landscapes. It is characterized by being one of the best diving destinations in the world.
+
+
+                </p>
+
+            </div>
+
+        </div>
+
+         <div class="img">
+            <img src="./image/وادى_الريان_الفيوم.jpg" id="ww">
+            <div class="content">
+                <h3>The Kings Festivities Road </h3>
+                <p> The Rams Road is a road that is more than 3,500 years old, 2.7 miles long and about 250 feet
+                    wide, connecting the Karnak Temple and the Luxor Temple, and was discovered in the ancient city
+                    of Thebes (present-day Luxor), where sphinxes and ram's head statues are lined up on the sides.
+                    Date
+                    The construction of the Rams Road began during the New Kingdom and was completed during the
+                    reign of the ruler of the Thirtieth Dynasty Nakhtenbo I (380-362 BC), but the road was buried
+                    under layers of sand over the centuries.</p>
+
+            </div>
+
+        </div>
+
+        <div class="img">
+            <img src="./image/Allee_des_sphinx_louxor_2004.JPG">
+            <div class="content">
+                <h3>The Kings Festivities Road </h3>
+                <p> The Rams Road is a road that is more than 3,500 years old, 2.7 miles long and about 250 feet
+                    wide, connecting the Karnak Temple and the Luxor Temple, and was discovered in the ancient city
+                    of Thebes (present-day Luxor), where sphinxes and ram's head statues are lined up on the sides.
+                    Date
+                    The construction of the Rams Road began during the New Kingdom and was completed during the
+                    reign of the ruler of the Thirtieth Dynasty Nakhtenbo I (380-362 BC), but the road was buried
+                    under layers of sand over the centuries.</p>
+
+            </div>
+
+        </div>
+
+
+
+    </div> 
+
+</section>
+
+<!-- end gallary -->
+
+<!-- contact -->
+<section class="contact" id="contact">
+    <h1 class="heading">
+        <span>C</span>
+        <span>O</span>
+        <span>N</span>
+        <span>T</span>
+        <span>A</span>
+        <span>C</span>
+        <span>T</span>
+    </h1>
+    <div class="context">
+        <div class="img">
+            <img src="./image/form.jpg">
+
+        </div>
+        <br>
+        
+        <form action="">
+            <div class="inputbox">
+                <input type="text" placeholder="Name" id="Name" name="Name" pattern="[a-z]{3,20}">
+                <input type="email" placeholder="Enter your email" id="email">
+            </div>
+            <div class="inputbox">
+                <input type="number"  id="num" placeholder="Your Number" style="border: 1px solid;">
+                <input type="text" placeholder="subject" style="border: 1px solid;">
+            </div>
+            <div class="inputbox">
+                <textarea placeholder="message" cols="35" rows="10" style="border: 1px solid;"></textarea>
+                <br>
+            </div>
+            <center><input type="submit" class="btn" value="send message"></center>
+    </div>
+    </form>
+
+</section>
+<!-- end contact -->
+
+<!--footer-->
+<footer>
+    <section class="footer">
+        <div class="row">
+            <div class="co">
+                <h3>About Us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam consequuntur quo, fugiat facere
+                    eligendi dolores labore voluptate doloribus sit deleniti mollitia. Exercitationem necessitatibus
+                    natus perspiciatis ipsam omnis velit tenetur dolores. Reprehenderit illum obcaecati ipsum
+                    quaerat vitae aliquid, aut quidem itaque.</p>
+            </div>
+            <div class="co">
+                <h3>Branch location</h3>
+                <a  onclick="showLocation_C()">Cairo</a>
+                <a onclick="showLocation_G()">Giza</a>
+                <a onclick="showLocation_S()">sohag</a>
+                <a onclick="showLocation_A()">Asyot</a>
+            </div>
+            <div class="co">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#book">Book</a>
+                <a href="#packages">packages</a>
+                <a href="#service">Service</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">contact</a>
+            </div>
+            <div class="co">
+                <h3>Follow Us</h3>
+                <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com/" target="_blank">instagram</a>
+                <a href="https://twitter.com/" target="_blank">Twitter</a>
+                <a href="https://www.linkedin.com/" target="_blank">Linkedin</a>
+            </div>
+
+        </div>
+        <hr>
+        <p style="text-align: center;">Created By <span style="color: rgb(253, 149, 13);">A&F&M&N</span>| All Rights
+            Reserved! </p>
+    </section>
+
+</footer>
+    <script src="./java.js"></script>
 </body>
 
 </html>

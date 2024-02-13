@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "img": "./image/lightning-desert_219717-5238.jpg",
+        "city": "Cairo&Giza",
+        "description": "Make a wonderful visit to the Giza Pyramids and the Egyptian Museum. Enjoy visiting the Sphinx in the pyramids area, Tutankhamun’s treasure in the Egyptian Museum, Al-Muizz Street, Cairo Tower and Al-Azhar Mosque. All that and more through a trip to the Giza Pyramids and the Egyptian Museum.",
+        "price": "2200",
+        "price2": "2500"
+    },
+    {
+        "id": 2,
+        "img": "./image/calin-stan-a8ZSKCBE1xk-unsplash.jpg",
+        "city": "Luxor",
+        "description": "Spend a wonderful time in the city of Luxor and enjoy visiting the Karnak Temple, which is the\n       largest in the world. It is a complex of 6 temples called Amun, Mut, Khonsu, Monthu, Ipt, and\n       Ptah. This temple is considered one of the oldest temples in all parts of the world. Also enjoy\n       visiting The magnificent Luxor Temple was built by Amenhotep III in the Eighteenth Dynasty in\n       the New Kingdom and completed by Ramesses II in the Nineteenth Dynasty. Do not miss this\n       opportunity and visit these unique landmarks.",
+        "price": "1500",
+        "price2": "1600"
+
+    },
+    {
+        "id": 3,
+        "img": "./image/chair-table-dinning-beach-sea-with-blue-sky.jpg",
+        "city": "Dahab",
+        "description": "Dahab is one of the most wonderful tourist cities, as it combines natural beauty and exciting\n        activities. Here are some activities you can enjoy on the trip:\n        Abu Galum Reserve:\n        You can dive to explore underwater caves and see diverse marine life.\n        It is an ideal destination for nature and diving lovers.\n        camping in dahab,\n        A safari trip in Dahab, a visit to the picturesque Wadi Jinni, and finally the tourist walkway.\n        In Dahab, you will find a wonderful combination of stunning nature and exciting activities.\n        Enjoy an unforgettable stay in this beautiful city.",
+        "price": "5500",
+        "price2": "6000"
+
+    },
+    {
+        "id": 4,
+        "img": "./image/وادى_الريان_الفيوم.jpg",
+        "city": "Fayoum",
+        "description": "Fayoum is one of the most beautiful tourist cities in Egypt, as it combines natural beauty and\n        cultural heritage. Here are some details about the Fayoum trip:\n        Exploring Wadi El Rayan:\n        Wadi El Rayan is considered one of the most important nature reserves in Fayoum.\n        You can visit waterfalls, ride a felucca, and sandboard.\n        , Jabal Al-Mudawara, Tunis Village, Lake Qarun, and watching rare birds in this area.\n        On your trip to Fayoum, you will find mountains, lakes and stunning landscapes. Enjoy a special\n        day in this beautiful city",
+        "price": "1800",
+        "price2": "2000"
+
+    },
+    {
+        "id": 5,
+        "img": "./image/boat-nile_219717-6316.avif",
+        "city": "Aswan",
+        "description": "Enjoy your trip to Aswan, the city of beauty and history in southern Egypt, and its tourist attractions: Abu Simbel Temple, Philae Temple Kom Ombo Temple, Kalabsha Temple, The Unfinished Obelisk, Elephantine Island, The High Dam and the Nubian village.",
+        "price": "3000",
+        "price2": "3200"
+
+    },
+    {
+        "id": 6,
+        "img": "./image/farah-samy-29Y5RyH16Ws-unsplash.jpg",
+        "city": "Alexandria",
+        "description": "Enjoy a pleasant trip with us through a trip to Alexandria. Enjoy with us a visit to the most important Alexandria attractions such as the Library of Alexandria, Qaitbay Citadel, Montazah Palace, the Tombs of Kom el-Shuqafa and other wonderful places in that charming city, nicknamed the Bride of the Mediterranean.",
+        "price": "3700",
+        "price2": "4000"
+
+    }
+    
+]
