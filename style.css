@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
-/* start header */
 :root {
     --orange: #ffa500;
 }
@@ -30,21 +29,19 @@ html {
     scroll-padding-top: 6rem;
     scroll-behavior: smooth;
 }
-
-.btn {
+.btn{
     display: inline-block;
     margin-top: 1rem;
-    background: var(--orange);
+    background:var(--orange);
     color: white;
     padding: .8rem 3rem;
     border: .2rem solid var(--orange);
     cursor: pointer;
     font-size: 1.7rem;
 }
-
-.btn:hover {
-    background: rgba(255, 165, 0, .2);
-    color: var(--orange);
+.btn:hover{
+background: rgba(255, 165, 0, .2);
+color:var(--orange);
 }
 
 header {
@@ -79,7 +76,7 @@ header .navbar a {
 }
 
 header .navbar a:hover {
-    color: var(--orange);
+    color: #ffa500;
 }
 
 header .icon i {
@@ -104,129 +101,146 @@ header .search-bar-container {
     display: flex;
     align-items: center;
     z-index: 1001;
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    clip-path: polygon(0 0,100% 0,100% 0,0 0);
 }
-
-header .search-bar-container.active {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+header .search-bar-container.active{
+    clip-path: polygon(0 0,100% 0,100% 100%,0 100%)  ;
 }
-
-header .search-bar-container #search-bar {
-    width: 100%;
-    padding: 1rem;
-    text-transform: none;
-    color: #333;
-    font-size: 1.7rem;
-    border-radius: .5rem;
+header .search-bar-container #search-bar{
+width: 100%;
+padding:1rem;
+text-transform: none;
+color:#333;
+font-size: 1.7rem;
+border-radius:.5rem;
 }
-
-header .search-bar-container label {
+header .search-bar-container label{
     color: white;
     cursor: pointer;
     font-size: 3rem;
     margin-left: 1.5rem;
 }
-
 header .search-bar-container label:hover {
     color: var(--orange);
 
 }
-
-.login-form-container {
+.login-form-container{
     position: fixed;
-    top: -120%;
-    left: 0;
-    z-index: 10000;
+    top: -120%; left: 0;
+    z-index:10000;
     min-height: 100vh;
     width: 100%;
-    background: rgba(0, 0, 0, .7);
+    background:rgba(0,0,0,.7);
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-.login-form-container.active {
+.login-form-container.active{
     top: 0;
 }
-
 .login-form-container form {
-    margin: 2rem;
-    padding: 1.5rem 2rem;
-    border-radius: .5rem;
-    background: white;
-    width: 50rem;
+margin: 2rem;
+padding: 1.5rem 2rem;
+border-radius: .5rem;
+background:white;
+width: 50rem;
 }
-
-.login-form-container form h3 {
+.login-form-container form h3{
     font-size: 3rem;
     color: #444;
     text-transform: uppercase;
     text-align: center;
-    padding: 1rem 0;
+    padding:1rem 0;
 }
-
-.login-form-container form .box {
-    width: 100%;
+.login-form-container form .box{
+    width:100%;
     padding: 1rem;
     font-size: 1.7rem;
     color: #333;
     margin: .6rem 0;
-    border: .1rem solid rgba(0, 0, 0, .3);
+    border: .1rem solid rgba(0,0,0,.3);
     text-transform: none;
+} 
+.login-form-container form .box:focus{
+    border-color:var(--orange);
 }
-
-.login-form-container form .box:focus {
-    border-color: var(--orange);
+.login-form-container form #remember{
+margin: 2rem 0;
 }
-
-.login-form-container form #remember {
-    margin: 2rem 0;
+.login-form-container form label{
+    font-size:1.5rem;
 }
-
-.login-form-container form label {
-    font-size: 1.5rem;
-}
-
-.login-form-container form .btn {
+.login-form-container form .btn{
     display: block;
     width: 100%;
 }
-
-.login-form-container form p {
-    padding: .5rem 0;
-    font-size: 1.5rem;
-    color: #666;
+.login-form-container form p{
+padding: .5rem 0;
+font-size: 1.5rem;
+color: #666;
 }
-
-.login-form-container form p a {
+.login-form-container form p a{
     color: var(--orange);
 
 }
-
-.login-form-container form p a:hover {
+.login-form-container form p a:hover{
     color: #333;
     text-decoration: underline;
 }
 
-.login-form-container #form-close {
+.login-form-container #form-close{
     position: absolute;
-    top: 2rem;
-    right: 3rem;
+    top:2rem; right: 3rem;
     font-size: 5rem;
     color: white;
     cursor: pointer;
 }
 
-/* smooth */
+#menu-bar{
+   color: white;
+   border: .1rem solid white;
+   border-radius: .5rem;
+   font-size:  3rem;
+   padding: .5rem 1.2rem;
+   cursor: pointer;
+   display: none;
+}
 
-#menu-bar {
-    color: white;
-    border: .1rem solid white;
-    border-radius: .5rem;
-    font-size: 3rem;
-    padding: .5rem 1.2rem;
+/* home */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&family=Protest+Revolution&family=Protest+Riot&display=swap');
+
+*
+{
+    font-family: 'Nunito', sans-serif;
+    outline: none;
+    text-decoration: none;
+}
+
+*::selection
+{
+    background-color: orange;
+    color: #fff;
+}
+
+.btn {
+
+    display: inline-block;
+    background-color: orange;
+    color: #fff;
+    padding: 0 1.5rem;
+    border: 1.1rem solid orange;
+    font-size: 1.4rem;
     cursor: pointer;
-    display: none;
+
+}
+
+
+
+.btn:hover
+{
+    background: rgba(255, 165, 0, 0.2);
+    /* background: black; */
+    color: orange;
 }
 
 body {
@@ -333,7 +347,7 @@ section {
 }
 
 .home {
-    min-height: 120vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -388,7 +402,7 @@ section {
 
 .home .video-container video {
 
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
@@ -491,13 +505,13 @@ section {
     padding: 2.5rem;
 }
 
-/* .heading span {
+.heading span {
     font-size: 50px;
     background: rgba(255, 165, 0, .2);
     color: rgb(240, 162, 18);
     border-radius: 10%;
     padding: 15px;
-} */
+}
 
 .packages .box-con {
     display: flex;
@@ -689,7 +703,7 @@ section {
 }
 
 .services .box-container .box {
-    flex: 1 1 30rem;
+    flex: 1 1 25rem;
     border-radius: .5rem;
     text-align: center;
     padding: 1rem;
@@ -871,12 +885,10 @@ section {
     
 /* footer */
 .footer{
-    
     background-color: #4b4848;
     color: #ffffff;
 }
 .row{
-    /* position: fixed; */
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
